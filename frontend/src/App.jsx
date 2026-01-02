@@ -4,7 +4,7 @@ import ContactList from './components/ContactList';
 import Alert from './components/Alert';
 import axios from 'axios';
 import './App.css';
-const vite_url = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const vite_url = import.meta.env.VITE_API_URL || 'https://contact-management-vyxf.onrender.com';
 function App() {
   const [contacts, setContacts] = useState([]);
   const [alert, setAlert] = useState({ show: false, message: '', type: '' });
